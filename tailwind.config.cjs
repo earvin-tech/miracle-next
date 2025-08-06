@@ -3,7 +3,12 @@ module.exports = {
     './src/**/*.{js,jsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        lemon: ['"Lemon Milk"', 'sans-serif'],
+        kopik: ['Kopik', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
-}
+};
